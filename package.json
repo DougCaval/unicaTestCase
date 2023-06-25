@@ -1,0 +1,30 @@
+{
+  "name": "zeusagrotech",
+  "version": "1.0.0",
+  "description": "Case test Zeus Agro",
+  "main": "index.js",
+  "scripts": {
+    "zeus": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DougCaval/unicaTestCase.git"
+  },
+  "author": "Doug Caval",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DougCaval/unicaTestCase/issues"
+  },
+  "homepage": "https://github.com/DougCaval/unicaTestCase#readme",
+  "devDependencies": {
+    "cypress": "^12.13.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "puppeteer": "^20.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepsDefinition": true
+  },
+  "dependencies": {
+    "npm": "^9.6.7"
+  }
+}
